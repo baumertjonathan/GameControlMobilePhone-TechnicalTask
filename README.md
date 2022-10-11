@@ -15,9 +15,13 @@ In the Server folder run `npm start` then leave that terminal be
 
 In a seperate terminal navigate to the Client folder then run `yarn start` this may open a web browser directing you to localhost:3000, if it does not do it yourself by launching a web browser, and putting localhost:3000 in the address bar. 
 
-Then on a mobile device open your browser and put the public ip you got earlier followed by ':3000'. It should look something like this at the end: `http://000.000.0.00:3000/' 
+Then on a mobile device open your browser and put the public ip you got earlier followed by ':3000'. It should look something like this at the end: `http://000.000.0.00:3000/`
 
 On your mobile phone select the 'Controller' option.
 On your computer select the 'Screen' option.
 
 ![Screenshot_20221011-171945_Firefox (002)](https://user-images.githubusercontent.com/39275549/195201499-a85763dd-dcc6-44c1-9bee-2a7adb9a92d0.jpg)
+
+### Caveats
+
+The controller uses 'onTouchStart' and 'onTouchEnd' which only trigger via touch screen devices. Also the [desktop versions of Safari and Opera do not support this](https://developer.mozilla.org/en-US/docs/Web/API/Element/touchstart_event#browser_compatibility) functionality so even if you have a desktop with a touchscreen you cannot use those browsers. 
