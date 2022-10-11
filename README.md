@@ -1,5 +1,14 @@
 # GameControlMobilePhone-TechnicalTask
 
+## Description
+This project uses a Node server with [ws](https://www.npmjs.com/package/ws) to handle websockets.
+
+The client end uses the React framework and [styled-components](https://styled-components.com/) for the majority of the styling.
+
+### High-level how it works
+The Server handles all the computations for the location, dimensions, and orientation of the graphic and sends that info over websockets to the Client.
+The client sends a message to the server every time a button is pressed or released. This is used by the server to compute the new location/orientation/dimensions of the graphic. 
+
 ## Getting Started
 This project uses [yarn](https://classic.yarnpkg.com/lang/en/docs/install/) and [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) as package managers. 
 
