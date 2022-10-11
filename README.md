@@ -19,3 +19,7 @@ Then on a mobile device open your browser and put the public ip you got earlier 
 
 On your mobile phone select the 'Controller' option.
 On your computer select the 'Screen' option.
+
+![image](https://user-images.githubusercontent.com/39275549/195201299-73a1e7ad-5a57-4475-a908-cb03d55048e0.png)
+
+![Screenshot_20221011-171945_Firefox (002)](https://user-images.githubusercontent.com/39275549/195201499-a85763dd-dcc6-44c1-9bee-2a7adb9a92d0.jpg)
